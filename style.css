@@ -1,0 +1,96 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body{
+  /* font-family: 'Exo', sans-serif; */
+  font-family: 'Saira', sans-serif;
+  /* font-family: 'Rubik Doodle Shadow'; */
+}
+
+*::selection{
+  background-color: black;
+  color: white;
+}
+
+.tin{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.dogtext{
+  text-align: left;
+  padding-bottom: 0%;
+  margin: 100px;
+  
+}
+
+.dogimg{
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.h2h2{
+  text-align: center;
+  font-stretch:wider;
+  font-size: 42;
+  /* font-size: 35px; */
+  padding-top:100px ;
+  padding-bottom: 2px;
+}
+
+#testimonial{
+  background-color: #F8F9FA;
+}
+
+.dogeh{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dog2{
+  border-radius: 50%;
+  margin-top: 48px;
+  margin-bottom: 2px;
+}
+
+.peb{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin-top: 2px;
+  font-weight: lighter;
+  
+}
+
+.im1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
